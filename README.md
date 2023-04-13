@@ -11,3 +11,6 @@
     * Drag and Drop .crx file to chrome and Done.
     * Enjoy
 
+##### Demo
+
+[Screencast_13_04_23_11:30:08_AM_IST.webm](https://user-images.githubusercontent.com/104289350/231688190-b87d4b27-6700-4d40-b1cd-5ddb55129a25.webm)
