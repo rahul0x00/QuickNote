@@ -1,47 +1,28 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Quick Note</title>
+    <meta charset="UTF-8">
+    <title>QuickNote</title>
     <style>
-      body {
-        font-family: Arial, sans-serif;
-        font-size: 14px;
-        padding: 10px;
-        max-width: 300px;
-      }
-
       textarea {
-        width: 100%;
+        width: 300px;
         height: 200px;
-        resize: none;
-        border: 1px solid #ccc;
-        padding: 5px;
-        font-family: Arial, sans-serif;
-        font-size: 14px;
       }
-
       button {
-        display: block;
         margin-top: 10px;
-        padding: 5px 10px;
-        background-color: #007bff;
-        color: #fff;
-        border: none;
-        border-radius: 3px;
-        font-family: Arial, sans-serif;
-        font-size: 14px;
-        cursor: pointer;
       }
-
-      button:hover {
-        background-color: #0069d9;
+      #saved-note {
+        margin-top: 10px;
+        font-weight: bold;
       }
     </style>
   </head>
-  <body>
+  <body style="background: #ffe042";>
+    <h1 style="color: #e71989;">QuickNote</h1>
     <textarea id="note"></textarea>
+    <br>
     <button id="save">Save</button>
-
+    <div id="saved-note"></div>
     <script src="popup.js"></script>
   </body>
 </html>
