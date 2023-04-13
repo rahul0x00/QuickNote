@@ -42,14 +42,6 @@
     <textarea id="note"></textarea>
     <button id="save">Save</button>
 
-    <script>
-      document.getElementById('save').addEventListener('click', function() {
-        var note = document.getElementById('note').value;
-        chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
-          chrome.tabs.sendMessage(tabs[0].id, {note: note});
-        });
-      });
-    </script>
+    <script src="popup.js"></script>
   </body>
 </html>
-
