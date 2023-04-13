@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Quick Note Extension",
+  "version": "1.0",
+  "description": "A simple extension for taking quick notes.",
+  "icons": {
+    "48": "icon48.png"
+  },
+  "browser_action": {
+    "default_icon": "icon48.png",
+    "default_title": "Quick Note",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}
+
