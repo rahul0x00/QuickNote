@@ -8,7 +8,7 @@
 ### How to Install?
 
 #### Firefox Browser 
-      Install the extension from here [QuickNote]("https://addons.mozilla.org/en-US/firefox/addon/quicknote/")
+To install the QuickNote extension, Click on <strong>[QuickNote]("https://addons.mozilla.org/en-US/firefox/addon/quicknote/")</strong>  and Install
 
 #### Chrome
     * Download the .crx file from Release
