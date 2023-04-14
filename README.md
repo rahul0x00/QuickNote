@@ -5,7 +5,12 @@
     * Easy to Access
     * No Signup Need
 
-#### How to Install?
+### How to Install?
+
+#### Firefox Browser 
+      Install the extension from here [QuickNote]("https://addons.mozilla.org/en-US/firefox/addon/quicknote/")
+
+#### Chrome
     * Download the .crx file from Release
     * Go to chrome://extensions/ and turn on developer options
     * Drag and Drop .crx file to chrome and Done.
